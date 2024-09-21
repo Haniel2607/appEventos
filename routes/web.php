@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EventosController;
 
 //visualizar as páginas
 Route::get('/', [EventosController::class, 'MostrarHome'])->name('home-adm');
