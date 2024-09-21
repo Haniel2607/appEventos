@@ -5,3 +5,4 @@
     <img src="">
     </img>
 </figure>
+@endsection
