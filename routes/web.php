@@ -5,7 +5,7 @@ use App\Http\Controllers\EventosController;
 
 //visualizar as páginas
 Route::get('/', [EventosController::class, 'MostrarHome'])->name('home-adm');
-Route::get('/cadastro-evento', [EventosController::class, 'MostrarCadastroEvento'])->name('mostrar-cadastra-evento');
+Route::get('/cadastro-evento', [EventosController::class, 'MostrarCadastroEvento'])->name('show-cadastra-evento');
 Route::get('/lista-evento', [EventosController::class, 'MostrarEventoNome'])->name('lista-evento');
 Route::get('/altera-evento', [EventosController::class, 'MostrarEventoCodigo'])->name('show-altera-evento');
 
