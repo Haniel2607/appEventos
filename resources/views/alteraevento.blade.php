@@ -1,8 +1,5 @@
 @extends('layout')
 @section('content')
-
-@extends('layout')
-@section('content')
 <div class="container mt-5">
     <h2>Alterar registros do Evento</h2>
     <form method="post" action="{{route('altera-evento', $registrosEvento->idEvento)}}">
